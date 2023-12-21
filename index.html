@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web5</title>
+    <link rel="stylesheet" href="../web4/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+</head>
+
+<body>
+    <h1>Web 5</h1>
+    <button type="button" class="collapsible">Projects</button>
+    <div class="content">
+        <a href="clientWebsite/index.html">Client Website</a> <br>
+        <a href="portfolio/index.html">Portfolio</a> <br>
+        <a href="caseStudy/index.html">Case Study</a>
+    </div>
+    <button type="button" class="collapsible">Demos</button>
+    <div class="content">
+        <a href="gridDemo/grid-demo.html">Grid Demo</a>
+    </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
