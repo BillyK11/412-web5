@@ -1,0 +1,77 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(54, 57, 150);
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.topnav a.icon:hover {
+    color: #373b97;
+}
+
+.active {
+    background-color: #373b97;
+    color: white;
+}
+
+#logo {
+    background-color: #373b97;
+    transition: 0.2s ease-in-out;
+}
+
+#logo:hover {
+    background-color: #dddddd3d;
+}
+
+#logo img {
+    max-height: 5vh;
+}
+
+.dropdown ul {
+    display: none;
+}
+
+.dropdown:hover ul,
+.dropdown:active ul {
+    display: block;
+}
+
+.dropdown ul a {
+    display: inline-block;
+    color: rgb(155, 155, 155);
+}
+
+.dropdown #arrow {
+    transition: 0.25s ease-in-out;
+}
+
+.dropdown:hover #arrow,
+.dropdown:active #arrow {
+    transform: rotate(180deg);
+}
+
+#myLinks a:hover{
+    color: black;
+    transition: 0.2s ease-in-out;
+}

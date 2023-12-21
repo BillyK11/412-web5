@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+p, label{
+    font-family: 'Poltawski Nowy', serif;
+    color: white;
+}
+
+h1{
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    padding: 0 1rem;
+}

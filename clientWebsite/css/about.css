@@ -1,0 +1,65 @@
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35vw;
+    padding: 1rem;
+}
+
+#services{
+    background-color: #373b97;
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+#services h2{
+    color: rgb(155, 155, 155);
+    padding: 1rem;
+}
+
+#services li{
+    color: white;
+    padding: 0.5rem;   
+}
+
+#services a{
+    color: rgb(155, 155, 155);
+}
+
+ul{
+    list-style: square;
+    padding: 0 1rem 1rem 3rem;
+}
+
+ul li{
+    padding: 0.5rem;
+}
+
+#experience{
+    display: grid;
+    background-color: rgb(155, 155, 155);
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+#experience div{
+    padding: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    #experience{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #experience {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+#experience h2{
+    color: #373b97;
+    padding-bottom: 1rem;
+} 
+

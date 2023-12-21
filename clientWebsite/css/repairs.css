@@ -1,0 +1,88 @@
+#types{
+    padding: 1rem;
+}
+
+#types li{
+    display: inline-block;
+    padding: 0.3rem;
+}
+
+#types li a{
+    text-decoration: none;
+    background-color: rgb(54, 57, 150);
+    color: white;
+    padding: 0.2rem;
+    box-shadow: 0 0 0.5rem black;
+    transition: 0.2s ease-in-out;
+}
+
+#types li a:hover{
+    background-color: rgb(54, 57, 100);
+}
+
+.repair{
+    display: grid;
+    padding-top: 2rem;
+}
+
+@media screen and (min-width: 768px){
+    .repair{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.image{
+    margin: auto;
+}
+
+.text{
+    background-color: rgb(54, 57, 150);
+    padding: 2rem;
+    color: white;
+}
+
+.text p{
+    padding-bottom: 1rem;
+}
+
+.text li{
+    color: rgb(155, 155, 155);
+    padding-top: 0.5rem;
+}
+
+.text ul{
+    padding-left: 1rem;
+}
+
+h1, h2, h3, #types{
+    padding-left: 1rem;
+}
+
+h2{
+    font-family: 'Exo 2', sans-serif;
+    padding: 2rem 0 2rem 1rem;
+    margin-top: 1.5rem;
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+}
+
+h3, .text p{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#wholesale h3{
+    text-align: center;
+    padding: 1rem;
+}
+
+#wholesale img{
+    width: 70vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wholesale p{
+    color: black;
+    padding: 1rem;
+}
