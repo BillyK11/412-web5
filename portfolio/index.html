@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+    </style>
+</head>
+<body>
+    <div id="preloader"></div>
+    <header>
+        <div id="heroText">
+            <h1>Billy Kotsovos</h1>
+            <h2>Graphic and Web Designer</h2>
+            <nav>
+                <ul>
+                    <li><a href="#projectsTitle" id="projectLink">Projects</a></li>
+                    <li><a href="#aboutTitle">About Me</a></li>
+                    <li><a href="#contactTitle">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="heroImage">
+            <img src="img/architecture_sunset_sea_139212_3840x2160.jpg" alt="">
+        </div>
+            
+    </header>
+
+    <main>
+        <h2 id="projectsTitle">Projects</h2>
+        <section id="projects">
+            <figure>
+                <figcaption>Awareness Poster</figcaption>
+                <img id="modal1" onclick="openModal1()" src="img/kotsovos_awareness_poster.png" title="Awareness Poster">
+            </figure>
+            <div class="overlay" id="modalOverlay1">
+                <div class="modal">
+                    <span class="close" onclick="closeModal1()">&times;</span>
+                    <h2>Awareness Poster</h2>
+                    <h3>About the Project</h3>
+                    <p>This project was completed in my Publication Design 1 class during the winter of 2023. The assignment was to create a tabloid sized poster raising awareness on the topic of water scarcity. My goal with this poster was to create a clear message and not make the poster too vibrant since the topic is a serious one.</p>
+                    <h3>Software Used</h3>
+                    <ul>
+                        <li> <img src="img/illustrator.png" title="Adobe Illustrator"></li>
+                        <li> <img src="img/word.png" title="Microsoft Word"></li>
+                    </ul>
+                    <h3>Research</h3>
+                    <p>The way I organized my research is I put all the information that I found from my various sources into a single word document and highlighted the most important parts. I repeated the highlighting and condensed my research 4 times until all I was left with was the most important information.</p>
+                    <img src="img/posterResearch1.png" alt="">
+                    <img src="img/posterResearch2.png" alt="">
+                    <h3>Final Product</h3>
+                    <img src="img/kotsovos_awareness_poster.png" alt="">
+                </div>
+            </div>
+
+            <figure>
+                <figcaption>Magazine Spread</figcaption>
+                <img id="modal2" onclick="openModal2()" src="img/kotsovos_magazineSpread.png" title="Magazine Spread">
+            </figure>
+            <div class="overlay" id="modalOverlay2">
+                <div class="modal">
+                    <span class="close" onclick="closeModal2()">&times;</span>
+                    <h2>Magazine Spread</h2>
+                    <h3>About the Project</h3>
+                    <p>This project was completed in the winter of 2023 in my Publication Design 1 class. The instructions were to use the same design, style, typography, etc. as a magazine that I previously analyzed in class and create a feature story for it. I analyzed the Car and Driver magazine and obtained my content from <a href="https://driving.ca/auto-news/auto-shows/ford-surprise-drops-track-focused-500-hp-2024-mustang-dark-horse" target="_blank" id="modal2link">this</a> Driving.ca article.</p>
+                    <h3>Software Used</h3>
+                    <ul>
+                        <li><img src="img/indesign.png" title="Adobe InDesign"></li>
+                    </ul>
+                    <h3>Original Magazine</h3>
+                    <p>This is the spread from the original Car and Driver magazine.</p>
+                    <img src="img/magazineSpread_original.png" alt="">
+                    <h3>Images</h3>
+                    <p>These were the images I used in my magazine spread.</p>
+                    <div id="modal2img">
+                    <img src="img/darkHorse1.jpg" alt="">
+                    <img src="img/darkHorse2.jpg" alt="">
+                    <img src="img/darkHorse3.jpeg" alt="">
+                    <img src="img/darkHorse4.jpg" alt="">
+                    <img src="img/darkHorse5.jpg" alt="">
+                    </div>
+                    <h3>Final Product</h3>
+                    <img src="img/kotsovos_magazineSpread.png" alt="">
+                </div>
+            </div>
+
+            <figure>
+                <figcaption>Six Word Story</figcaption>
+                <img id="modal3" onclick="openModal3()" src="img/SixWordStory.png" title="Six Word Story">
+            </figure>
+            <div class="overlay" id="modalOverlay3">
+                <div class="modal">
+                    <span class="close" onclick="closeModal3()">&times;</span>
+                    <h2>Six Word Story</h2>
+                    <h3>About the project</h3>
+                    <p>This project was completed in my Graphic Design 4 class during the winter of 2023. I first started off by creating ten stories consisting of only 6 words each. I then chose my favorite one and created a poster from it. After choosing the story "Follow the light, it guides you", I got the idea of creating a poster where the silhouette of a person is in a dark place and they are walking towards the light.</p>
+                    <h3>Software Used</h3>
+                    <ul>
+                        <li><img src="img/illustrator.png" title="Adobe Illustrator" alt=""></li>
+                    </ul>
+                    <h3>Ten Stories</h3>
+                    <p>These were the ten stories I originally thought of.</p>
+                    <img src="img/tenStories.png" alt="">
+                    <h3>Silhouette - Original</h3>
+                    <p>This is the original image that I used to create my silhouette.</p>
+                    <img src="img/sixWordStorySource.jpg" alt="">
+                    <h3>Silhouette</h3>
+                    <p>This is the completed silhouette.</p>
+                    <img src="img/silhouette.png" alt="">
+                    <h3>Final Product</h3>
+                    <img src="img/SixWordStory.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <h2 id="aboutTitle">About Me</h2>
+        <section id="about">
+           <div class="tabs">
+                <input type="radio" class="tabsRadio" name="tabs" id="introTab" checked>
+                <label for="introTab" class="tabsLabel">Intro</label>
+                <div class="tabsContent" id="introContent">
+                    <p>When I work with others, I expect efficiency, respect, and honesty from them and in turn, I make sure to always have
+                    those qualities on my end. My name is Billy, and I am currently in my third year of studying graphic and web design at
+                    Vanier College. I've chosen this field of work mainly because I love creating things and having that pride when I can
+                    say “I did that”. Even though I don't have much experience in the creative world prior to starting this program, I am a
+                    very curious person and I enjoy learning new things. My curiosity and desire to learn new things aren't the only things
+                    I bring to the table. I am a very humble person, so I believe I am easy to work with, but don't mistake my humbleness
+                    for passiveness, or carelessness. I take pride in my work and even though I'm always open to new ideas for a project, I
+                    am also not afraid to defend what I believe to be right.</p>
+                </div>
+
+                <input type="radio" class="tabsRadio" name="tabs" id="educationTab">
+                <label for="educationTab" class="tabsLabel">Education</label>
+                <div class="tabsContent">
+                    <p class="boldBlue">École Démosthène / Twin Oaks Elementary School</p>
+                    <p class="bold">Primary School</p>
+                    <p>August 2007 - June 2014</p>
+                    <p class="boldBlue">Laval Junior / Senior Academy</p>
+                    <p class="bold">Secondary School Diploma</p>
+                    <p>August 2014 - June 2019</p>
+                    <p class="boldBlue">Vanier College</p>
+                    <p class="bold">DCS/DEC in Computer Engineering Technology (Incomplete)</p>
+                    <p>August 2019 - October 2020</p>
+                    <p class="bold">DCS/DEC in Micropublishing & Hypermedia</p>
+                    <p>August 2021 - Present</p>
+
+
+                </div>
+
+                <input type="radio" class="tabsRadio" name="tabs" id="skillsTab">
+                <label for="skillsTab" class="tabsLabel">Skills</label>
+                <div class="tabsContent">
+                    <section id="skillsGrid">
+                    <div>
+                    <p class="boldBlue">Hard Skills</p>
+                    <p class="bold">Adobe Creative Suite</p>
+                    <ul class="skills">
+                        <li class="underline">Sufficient Experience</li>
+                        <li><img src="img/indesign.png" alt=""></li>
+                        <li><img src="img/illustrator.png" alt=""></li>
+                        <li class="underline">Some Experience</li>
+                        <li><img src="img/photoshop.png" alt=""></li>
+                        <li><img src="img/afterEffects.png" alt=""></li>
+                        <li><img src="img/premierePro.png" alt=""></li>
+                    </ul>
+                    <p class="bold">Microsoft Office</p>
+                    <ul class="skills">
+                        <li class="underline">Sufficient Experience</li>
+                        <li><img src="img/word.png" alt=""></li>
+                        <li><img src="img/powerpoint.png" alt=""></li>
+                        <li class="underline">Some Experience</li>
+                        <li><img src="img/excel.png" alt=""></li>
+                    </ul>
+                    <p class="bold">Programming Languages</p>
+                    <ul class="skills">
+                        <li class="underline">Sufficient Experience</li>
+                        <li><img src="img/html.png" alt=""></li>
+                        <li><img src="img/css.png" alt=""></li>
+                        <li class="underline">Some Experience</li>
+                        <li><img src="img/js.png" alt=""></li>
+                        <li><img src="img/php.png" alt=""></li>
+                    </ul>
+                    </div>
+                    <div>
+                    <p class="boldBlue">Soft Skills</p>
+                    <ul id="softSkills">
+                        <li>Patient</li>
+                        <li>Organized</li>
+                        <li>Respectful</li>
+                        <li>Humble</li>
+                        <li>Creative</li>
+                        <li>Adaptable</li>
+                        <li>Team Player</li>
+                        <li>Good Listener</li>
+                    </ul>
+                    </div>
+                    </section>
+                </div>
+           </div>
+        </section>
+
+        <h2 id="contactTitle">Contact Me</h2>
+        <section id="contact">
+            <p class="boldBlue">E-Mail</p>
+            <p>billykotsovos@gmail.com</p>
+            <p class="boldBlue">Phone Number</p>
+            <p>514-836-6390</p>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/billy-kotsovos-6a4718268/" target="_blank"><img src="img/linkedin.png" alt=""></a>
+        <a href="https://www.instagram.com/billy_micromedia1/" target="_blank"><img src="img/instagram.png"></a>
+        <a href="https://www.facebook.com/billy.kotsovos" target="_blank"><img src="img/facebook.png" alt=""></a>
+        <p>&copy; 2023 Billy Kotsovos</p>
+    </footer>
+    
+</body>
+</html>
